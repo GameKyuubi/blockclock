@@ -1,0 +1,11 @@
+{
+  "name": "blockclock",
+  "version": "1.0.0",
+  "description": "bitcoin blockchain clock",
+  "main": "index.js",
+  "author": "mike",
+  "license": "MIT",
+  "dependencies": {
+    "bitcoin-core": "^2.0.0"
+  }
+}
