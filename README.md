@@ -6,3 +6,9 @@ Create a `config.json` file in the same directory as specified below:
 { "username": "RPC_USERNAME_HERE", "password": "RPC_PASSWORD_HERE" }
 
 Rpc username and password must match bitcoin node config, obviously.
+
+requires node and yarn
+
+`yarn install`
+
+`node index.js`
