@@ -6,7 +6,7 @@ const client = new Client({ username: config.username, password: config.password
 
 var lastBlockHash = null;
 
-function getInfo() {
+function displayTime() {
   client.getBlockchainInfo().then((info) => {
     client.getBlockHash(info.blocks).then((blockHash) => {
       if(lastBlockHash != blockHash) {
@@ -19,4 +19,4 @@ function getInfo() {
   });
 }
 
-setInterval(getInfo, 1000);
+setInterval(displayTime, 1000);
